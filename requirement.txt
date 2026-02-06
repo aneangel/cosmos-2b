@@ -1,0 +1,25 @@
+# NVIDIA Cosmos Reason 8B Requirements
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+transformers>=4.57.0
+
+# Acceleration and model loading
+accelerate>=0.20.0
+
+# Qwen Vision-Language utilities
+qwen-vl-utils>=0.0.1
+
+# Image and video processing
+pillow>=9.0.0
+opencv-python>=4.5.0
+
+# Hugging Face Hub
+huggingface-hub>=0.20.0
+
+# Optional but recommended for production
+# vllm>=0.11.0  # Uncomment for production deployment
+# flash-attn>=2.0.0  # Uncomment for faster inference (requires compilation)
